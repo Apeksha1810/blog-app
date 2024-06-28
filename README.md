@@ -1,3 +1,16 @@
+# Blog Application
+
+## Description
+This project is a fully functional blog application built with React.js, utilizing Material-UI for styling and Redux for state management. It features a rich text editor for creating and editing blog posts, a theme switcher for toggling between light and dark modes, and a responsive UI designed to work seamlessly across different screen sizes.
+
+## Features
+- Create, edit, and delete blog posts
+- Integrated rich text editor
+- Theme switcher with light and dark modes
+- Centralized state management using Redux
+- Responsive design for various screen sizes
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
