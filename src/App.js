@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from '@mui/material/styles';
-import { CssBaseline, Container, Grid, Box, Paper, Button } from '@mui/material';
+import { CssBaseline, Container, Grid, Paper, Button } from '@mui/material';
 import { lightTheme, darkTheme } from './theme';
 import BlogEditor from './components/BlogEditor';
 import BlogList from './components/BlogList';
-import CustomSwitch from './CustomSwitch'; 
+import CustomSwitch from './CustomSwitch';
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem('darkMode') === 'true');
