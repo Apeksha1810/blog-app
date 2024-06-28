@@ -10,7 +10,7 @@ const BlogList = ({ onEdit }) => {
     <div>
       {posts.length === 0 ? (
         <Typography variant="h5" sx={{ textAlign: 'center', marginTop: '16px', fontWeight: 'bold' }}>
-          "No posts available"
+          "No posts available right now"
         </Typography>
       ) : (
         posts.map((post) => (
